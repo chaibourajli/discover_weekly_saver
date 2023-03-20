@@ -12,7 +12,6 @@
     <ol>
       <li>Create a Spotify Developer account and set up a new app to get your <code>CLIENT_ID</code> and <code>CLIENT_SECRET</code>.</li>
       <li>Get your <code>USER_ID</code> by going to your Spotify account page and clicking on the three dots next to your username. Select "Share" and then "Copy Spotify URI". Your user ID will be everything after the "spotify:user:" portion of the URI.</li>
-      <li>Install the necessary Python packages by running <code>pip install -r requirements.txt</code>.</li>
       <li>Set up your environment variables by creating a <code>.env</code> file in the root directory of the project and adding the following:</li>
       <pre><code>SPOTIFY_USERNAME=your_spotify_username
 SPOTIFY_PLAYLIST_ID=your_spotify_discoverweekly_playlist_id
