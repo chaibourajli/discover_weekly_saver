@@ -4,10 +4,10 @@
 <html>
   <body>
     <h1>Save Your Discover Weekly Spotify Playlist!</h1>
-    <p>Are you tired of losing all the songs you discovered on your Discover Weekly playlist on Spotify every Monday? Do you wish you could save them automatically to a playlist of your choice? Look no further! With this Python script, you can easily save your Discover Weekly songs to a new or existing playlist on your Spotify account.</p>
+    <p>Are you tired of losing all the songs you discovered on your Discover Weekly playlist on Spotify every Monday? Do you wish you could save them automatically to a playlist of your choice? Look no further! With this Python script, you can easily save your Discover Weekly songs to a new playlist on your Spotify account.</p>
     <img src="https://user-images.githubusercontent.com/96797193/226316975-708daa0d-6e33-41de-80b3-0e774d634c0c.jpg">
         <h2>How It Works</h2>
-    <p>This script uses the Spotify Web API to retrieve your Discover Weekly playlist and all of the songs on it. It then checks if a playlist with the specified name already exists on your account. If it does, the script will add the new songs to the existing playlist. If it doesn't, the script will create a new playlist with the specified name and add the songs to it.</p>
+    <p>This script uses the Spotify Web API to retrieve your Discover Weekly playlist and all of the songs on it. And then it creates a playlist with the date.</p>
     <h2>Getting Started</h2>
     <ol>
       <li>Create a Spotify Developer account and set up a new app to get your <code>CLIENT_ID</code> and <code>CLIENT_SECRET</code>.</li>
